@@ -1,4 +1,4 @@
-# Listed Companies JSON Data
+# Thai Listed Companies JSON Data
 
 ## Overview
 This repository contains a JSON file (`ListedCompanies.json`) that includes data on various listed companies. The data is structured and can be used for various purposes like data analysis, research, or educational projects.
@@ -13,8 +13,6 @@ Make sure you have Pandas installed in your Python environment. You can install 
 ```bash
 pip install pandas
 ```
-
-
 
 ### Fetching Data Directly
 ```bash
