@@ -9,14 +9,21 @@ The  JSON file is structured with key-value pairs representing different attribu
 ## How to Use
 You can use the data directly from this repository by fetching it through GitHub's raw content feature or by cloning the repository to your local machine.
 
+Make sure you have Pandas installed in your Python environment. You can install it using pip if you don't have it already:
+```bash
+pip install pandas
+```
+
+
+
 ### Fetching Data Directly
 ```bash
-curl https://raw.githubusercontent.com/[your-username]/[repository-name]/main/ListedCompanies.json -o ListedCompanies.json
+curl 'https://raw.githubusercontent.com/candythink/Thai-Listed-Companies/main/ThaiListedCompanies.json' 
 ```
 
 ### Cloning the Repository
 ```bash
-git clone https://github.com/[your-username]/[repository-name].git
+git clone https://github.com/candythink/Thai-Listed-Companies.git
 ```
 
 ## Dependencies
