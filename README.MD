@@ -19,6 +19,8 @@ pip install pandas
 curl 'https://raw.githubusercontent.com/candythink/Thai-Listed-Companies/main/ThaiListedCompanies.json' 
 ```
 
+![sample](https://raw.githubusercontent.com/candythink/Thai-Listed-Companies/sample-pic/pics/sample1.png)
+
 ### Cloning the Repository
 ```bash
 git clone https://github.com/candythink/Thai-Listed-Companies.git
