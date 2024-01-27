@@ -14,7 +14,7 @@ Make sure you have Pandas installed in your Python environment. You can install 
 pip install pandas
 ```
 
-![sampleData](https://github.com/candythink/Thai-Listed-Companies/blob/sample-pic/pics/sampleData.png?raw=true)
+![sampleData](https://github.com/candythink/Thai-Listed-Companies/blob/sample-pic/pics/sample1.png?raw=true)
 
 ### Fetching Data Directly
 ```bash
