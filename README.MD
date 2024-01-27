@@ -13,6 +13,18 @@ Make sure you have Pandas installed in your Python environment. You can install 
 ```bash
 pip install pandas
 ```
+```python
+import pandas as pd
+
+# URL to the raw JSON file on GitHub
+json_file_url = 'https://raw.githubusercontent.com/[your-username]/[repository-name]/main/ThaiListedCompanies.json'
+
+# Read the JSON Lines file into a pandas DataFrame
+df = pd.read_json(json_file_url, lines=True)
+
+# Display the DataFrame
+print(df)
+```
 
 ### Fetching Data Directly
 ```bash
