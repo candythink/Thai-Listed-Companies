@@ -6,5 +6,5 @@ json_file_path = 'https://raw.githubusercontent.com/candythink/Thai-Listed-Compa
 # Read the JSON Lines file into a pandas DataFrame
 df = pd.read_json(json_file_path, lines=True)
 
-# Display the DataFrame
+# Display the DataFrame.
 print(df)
