@@ -1,7 +1,7 @@
 # Thai Listed Companies JSON Data
 
 ## Overview
-This repository contains a JSON file (`ListedCompanies.json`) that includes data on various listed companies. The data is structured and can be used for various purposes like data analysis, research, or educational  projects.
+This repository contains a JSON file (`ListedCompanies.json`) that includes data on various listed companies. The data is structured and can be used for various purposes like data analysis,  research, or educational projects.
 
 ## Data Format
 The  JSON file is structured with key-value pairs representing different attributes of the listed companies.
