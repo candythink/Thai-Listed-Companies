@@ -51,11 +51,21 @@ def MongoClose():
     client.close
 
     
+<<<<<<< HEAD
 def InitializeWebdriver(url):
     options = webdriver.ChromeOptions()
     driver = webdriver.Remote(command_executor=url, options=options)
     return driver
 
+=======
+def initialize_webdriver(url, username, password):
+    auth_url = f"https://{username}:{password}@{url.lstrip('http://')}"
+    options = webdriver.ChromeOptions()
+    driver = webdriver.Remote(command_executor=auth_url, options=options)
+    return driver
+
+
+>>>>>>> 34b0326 (update)
 def CloseWebdriver(driver):
     driver.close()
     driver.quit()
@@ -200,7 +210,11 @@ def Tranferfile():
     finally:
         # Close the SSH connection
         sshClient.close()
+<<<<<<< HEAD
         logging.error("Logged out.")
+=======
+        logging.info("Logged out.")
+>>>>>>> 34b0326 (update)
         return True
         
 def CleansingData():
@@ -363,7 +377,14 @@ def UploadToGithub():
         return False
         
 def MainCode():
+<<<<<<< HEAD
     driver = InitializeWebdriver('192.168.1.13:4444')
+=======
+    url = 'sel.spellred.com'
+    username = 'batt'
+    password = 'h3nNem8TVQfqYxjtDUR4r6gpya9ZEsPXG5dK2AuHc7kMSvzJbW'
+    driver = initialize_webdriver(url, username, password)
+>>>>>>> 34b0326 (update)
     
     if DownloadPP_001(driver):
             if Tranferfile():
