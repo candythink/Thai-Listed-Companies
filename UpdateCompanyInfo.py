@@ -377,7 +377,7 @@ def MainCode():
                         logging.info('Script Runcomplete Exit script...')
     
 if __name__ == "__main__":
-    logger = CreateLogger('UpdateCompanyInfo')
+    logger = CreateLogger('updateCompanyInfo')
     MainCode()
     
     # logging.info(infoLog)
