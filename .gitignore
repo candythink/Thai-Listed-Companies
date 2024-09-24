@@ -1,0 +1,11 @@
+__pycache__/
+*.xlsx
+*.ipynb
+.DS_Store
+download_listed_company.py
+save_file_to_local.py
+cleansing_data.py
+upload_to_github.py
+ssh/
+update_companies_info_db.py
+.env
