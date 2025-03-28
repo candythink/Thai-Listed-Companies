@@ -1,4 +1,4 @@
-## UPDATE : 2025-03-27
+## UPDATE : 2025-03-28
 # Thai Listed Companies JSON Data
 
 ## Overview
